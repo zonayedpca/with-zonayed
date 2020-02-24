@@ -2,60 +2,66 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: static/admin
-webhook_url: 'https://api.stackbit.com/project/5e53a0ab89830a001a0d4967/webhook/forestry'
+webhook_url: https://api.stackbit.com/project/5e53a0ab89830a001a0d4967/webhook/forestry
 sections:
-  - type: document
-    label: Global Site Config
-    path: site-metadata.json
-    templates:
-      - config
-  - type: document
-    label: Social Links
-    path: src/data/social.json
-    templates:
-      - social
-  - type: document
-    label: Author
-    path: src/data/author.json
-    templates:
-      - author
-  - type: document
-    label: Home
-    path: src/pages/index.md
-    templates:
-      - home
-  - type: document
-    label: Contact
-    path: src/pages/contact.md
-    templates:
-      - contact
-  - type: directory
-    path: src/pages
-    match: '**/*'
-    exclude: '{posts/**,index.md,contact.md}'
-    label: Page
-    create: all
-    templates:
-      - page
-  - type: directory
-    path: src/pages/posts
-    match: '**/*'
-    label: Post
-    create: all
-    templates:
-      - post
-  - type: document
-    label: Subscribe
-    path: src/data/subscribe.json
-    templates:
-      - subscribe
-  - type: document
-    label: Site Menus
-    path: src/data/menus.json
-    templates:
-      - site_menus
+- type: document
+  path: site-metadata.json
+  label: Global Site Config
+  templates:
+  - config
+- type: document
+  path: src/data/social.json
+  label: Social Links
+  templates:
+  - social
+- type: document
+  path: src/data/author.json
+  label: Author
+  templates:
+  - author
+- type: document
+  path: src/pages/index.md
+  label: Home
+  templates:
+  - home
+- type: document
+  path: src/pages/contact.md
+  label: Contact
+  templates:
+  - contact
+- type: directory
+  path: src/pages
+  label: Page
+  create: all
+  match: "**/*"
+  exclude: "{posts/**,index.md,contact.md}"
+  templates:
+  - page
+- type: directory
+  path: src/pages/posts
+  label: Post
+  create: all
+  match: "**/*"
+  templates:
+  - post
+- type: document
+  path: src/data/subscribe.json
+  label: Subscribe
+  templates:
+  - subscribe
+- type: document
+  path: src/data/menus.json
+  label: Site Menus
+  templates:
+  - site_menus
 upload_dir: static/images
-public_path: /images
+public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ':filename:'
+file_template: ":filename:"
+build:
+  preview_output_directory: public
+  install_dependencies_command: npm install
+  preview_docker_image: node:10
+  mount_path: "/srv"
+  instant_preview_command: npm run forestry:preview
