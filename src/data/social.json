@@ -1,10 +1,9 @@
 {
   "links": [
     {
-      "type": "twitter",
-      "title": "Twitter",
-      "icon": "fa-twitter",
-      "url": "https://twitter.com/zonayedpca"
+      "title": "Codepen",
+      "icon": "fa-codepen",
+      "url": "https://codepen.io/zonayedpca"
     },
     {
       "type": "github",
@@ -13,16 +12,16 @@
       "url": "https://github.com/zonayedpca"
     },
     {
+      "type": "twitter",
+      "title": "Twitter",
+      "icon": "fa-twitter",
+      "url": "https://twitter.com/zonayedpca"
+    },
+    {
       "type": "linkedin",
       "title": "LinkedIn",
       "icon": "fa-linkedin",
       "url": "https://www.linkedin.com/"
-    },
-    {
-      "type": "devto",
-      "title": "DEV",
-      "icon": "fa-dev",
-      "url": "https://dev.to/"
     }
   ]
 }
