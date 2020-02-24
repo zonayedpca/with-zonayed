@@ -1,0 +1,46 @@
+---
+label: Post
+is_partial: false
+fields:
+  - type: text
+    name: title
+    label: Title
+    description: The title of the post.
+    config:
+      required: true
+  - type: text
+    name: subtitle
+    label: Subtitle
+    description: The text shown just below the post title.
+  - type: datetime
+    name: date
+    label: Date
+    config:
+      required: true
+  - type: file
+    name: thumb_img_path
+    label: Featured Image
+    description: The image shown in the blog feed.
+  - type: file
+    name: content_img_path
+    label: Alternative Featured Image
+    description: The image shown in the single post.
+  - type: text
+    name: excerpt
+    label: Excerpt
+    description: The excerpt of the post displayed in the blog feed.
+  - type: text
+    name: template
+    label: Template
+    hidden: true
+    default: post
+    config:
+      required: true
+pages:
+  - src/pages/posts/basic-rules-for-walking-in-the-mountains.md
+  - src/pages/posts/fox-village-in-japan.md
+  - src/pages/posts/fragments-of-iceland.md
+  - src/pages/posts/moving-to-new-york.md
+  - src/pages/posts/relax-in-nature.md
+  - src/pages/posts/what-isphotography.md
+  - src/pages/posts/working-from-home.md

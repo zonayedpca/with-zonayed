@@ -1,0 +1,18 @@
+---
+label: Subscribe
+hide_body: true
+is_partial: false
+fields:
+  - type: boolean
+    name: enabled
+    label: Enable Subscribe Section
+    description: Display the newsletter subscription section in the footer.
+    default: true
+  - type: text
+    name: title
+    label: Title
+    description: The title of the subscribe section
+  - type: text
+    name: content
+    label: Content
+    description: The text content of the subscribe section

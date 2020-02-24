@@ -1,0 +1,48 @@
+---
+label: Intro Section
+hide_body: true
+is_partial: true
+display_field: title
+fields:
+  - type: text
+    name: title
+    label: Title
+    description: The title of the section
+    config:
+      required: true
+  - type: text
+    name: section_id
+    label: Element ID
+  - type: text
+    name: component
+    label: Component
+    hidden: true
+    default: Intro
+    config:
+      required: true
+  - type: textarea
+    name: content
+    label: Content
+    description: The text content of the section.
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+  - type: field_group_list
+    name: actions
+    label: Action Buttons
+    fields:
+      - type: include
+        name: include_action
+        label: Action
+        template: action
+    config:
+      labelField: label
+  - type: text
+    name: type
+    label: Reference Type Name
+    description: 'Name of the Stackbit object model, used by fields of type reference'
+    hidden: true
+    default: intro
+    config:
+      required: true

@@ -1,0 +1,15 @@
+---
+label: Action
+hide_body: true
+is_partial: true
+display_field: label
+fields:
+  - type: text
+    name: label
+    label: Label
+    description: The text displayed inside the button
+    config:
+      required: true
+  - type: text
+    name: url
+    label: Button URL

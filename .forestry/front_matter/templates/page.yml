@@ -1,0 +1,28 @@
+---
+label: Page
+is_partial: false
+fields:
+  - type: text
+    name: title
+    label: Title
+    description: The title of the page.
+    config:
+      required: true
+  - type: text
+    name: subtitle
+    label: Subtitle
+    description: The text shown just below the page title.
+  - type: file
+    name: img_path
+    label: Image
+    description: The image shown below the page title and subtitle.
+  - type: text
+    name: template
+    label: Template
+    hidden: true
+    default: page
+    config:
+      required: true
+pages:
+  - src/pages/about.md
+  - src/pages/style-guide.md

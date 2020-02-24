@@ -1,0 +1,26 @@
+---
+label: Home
+hide_body: true
+is_partial: false
+fields:
+  - type: text
+    name: title
+    label: Title
+    description: 'The title of the page. If value is not set, the author name will be used.'
+    config:
+      required: true
+  - type: blocks
+    name: sections
+    label: Sections
+    description: Home page sections
+    template_types:
+      - intro
+  - type: text
+    name: template
+    label: Template
+    hidden: true
+    default: home
+    config:
+      required: true
+pages:
+  - src/pages/index.md
