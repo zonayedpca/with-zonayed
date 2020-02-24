@@ -12,8 +12,8 @@ sections:
     to make the web more open to the world. I am currently pursuing my bachelor's
     degree at Chandigarh University, Punjab, India(Last Year).
   actions:
-  - label: Learn More
-    url: "/about"
+  - label: Know More
+    url: https://zonayed.me
 menus:
   main:
     title: Home
