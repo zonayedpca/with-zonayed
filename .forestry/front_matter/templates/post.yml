@@ -36,5 +36,3 @@ fields:
   default: post
   config:
     required: true
-pages:
-- src/pages/posts/জাভাস্ক্রিপ্ট-অ্যালগরিদম-ও-ডাটা-স্ট্রাকচারঃ-স্ট্রিং-উল্টানো.md
