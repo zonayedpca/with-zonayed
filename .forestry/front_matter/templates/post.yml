@@ -38,3 +38,4 @@ fields:
     required: true
 pages:
 - src/pages/posts/cmd-দিয়ে-জাভা-প্রোগ্রাম-কম্পাইল-ও-রান-করুন.md
+- src/pages/posts/ডিবাগিং-এ-রাবার-ডাক-মেথড-খেলনা-দিয়ে-ডিবাগিং.md
