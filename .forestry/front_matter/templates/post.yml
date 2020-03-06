@@ -31,6 +31,7 @@ fields:
   label: Date
   config:
     required: true
+  default: now
 - type: file
   name: thumb_img_path
   label: Featured Image
