@@ -8,10 +8,24 @@ fields:
   description: The title of the post.
   config:
     required: true
-- type: text
-  name: subtitle
-  label: Subtitle
-  description: The text shown just below the post title.
+- name: language
+  type: select
+  default: বাংলা
+  config:
+    required: false
+    options:
+    - English
+    - বাংলা
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Language
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 - type: datetime
   name: date
   label: Date
@@ -21,14 +35,20 @@ fields:
   name: thumb_img_path
   label: Featured Image
   description: The image shown in the blog feed.
-- type: file
-  name: content_img_path
-  label: Alternative Featured Image
-  description: The image shown in the single post.
-- type: text
-  name: excerpt
-  label: Excerpt
-  description: The excerpt of the post displayed in the blog feed.
+- name: series
+  type: select
+  default: ব্লগ
+  config:
+    required: false
+    options:
+    - Blog
+    - ব্লগ
+    source:
+      type: simple
+      section: ''
+      file: 
+      path: 
+  label: Series
 - type: text
   name: template
   label: Template
