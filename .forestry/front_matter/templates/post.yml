@@ -70,6 +70,7 @@ pages:
 - src/pages/posts/জাভাস্ক্রিপ্ট-অ্যালগরিদম-ও-ডাটা-স্ট্রাকচারঃ-স্ট্রিং-উল্টানো.md
 - src/pages/posts/জাভাস্ক্রিপ্ট-ইএস-৬-es6-ক্লাস-class.md
 - src/pages/posts/জাভাস্ক্রিপ্ট-ইএস-৬-es6-ক্লাস-ও-ইনহেরিট্যান্স-inheritance.md
+- src/pages/posts/জাভাস্ক্রিপ্ট-ইএস-৬-es6-ম্যাপ-map.md
 - src/pages/posts/জাভাস্ক্রিপ্ট-ইএস-৬-es6-সব-ইনভারোমেন্ট-এ-ইএস৬.md
 - src/pages/posts/জাভাস্ক্রিপ্ট-ডম-ম্যানিপুলেশনঃ-অ্যাজাক্স-ajax.md
 - src/pages/posts/জাভাস্ক্রিপ্ট-ডম-ম্যানিপুলেশনঃ-ইভেন্ট-event.md
@@ -99,4 +100,5 @@ pages:
 - src/pages/posts/রিঅ্যাক্ট-ব্যাসিকসঃ-কম্পোনেন্ট-component.md
 - src/pages/posts/রিঅ্যাক্ট-ব্যাসিকসঃ-জেএসএক্স-jsx-পরিচিতি.md
 - src/pages/posts/রিঅ্যাক্ট-ব্যাসিকসঃ-প্রোজেক্ট-সেটআপ.md
+- src/pages/posts/রিঅ্যাক্টঃ-কি-কেন-এবং-কিভাবে.md
 - src/pages/posts/রোবোটিক্স-এর-শুরু-হউক-জাভাস্ক্রিপ্ট-দিয়েই.md
