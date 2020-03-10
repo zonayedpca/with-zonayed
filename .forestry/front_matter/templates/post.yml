@@ -60,6 +60,7 @@ fields:
 pages:
 - src/pages/posts/cmd-দিয়ে-জাভা-প্রোগ্রাম-কম্পাইল-ও-রান-করুন.md
 - src/pages/posts/অনলাইনে-ফ্রীতে-নিজের-ওয়ার্কশপ-তৈরী-করুন-আর-কাজ-করুন-যেকোনো-জায়গা-থেকে.md
+- src/pages/posts/এক-পলকে-গিট-git-ও-গিটহাব-github- - পর্ব-১-৩.md
 - src/pages/posts/এক-পলকে-গিট-git-ও-গিটহাব-github- - পর্ব-২-৩.md
 - src/pages/posts/এক-পলকে-গিট-git-ও-গিটহাব-github- - পর্ব-৩-৩.md
 - src/pages/posts/এক-পলকে-রেগুলার-এক্সপ্রেশন-regular-expression-পর্ব-১-২.md
