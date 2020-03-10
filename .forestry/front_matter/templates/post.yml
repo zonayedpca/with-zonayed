@@ -74,6 +74,7 @@ pages:
 - src/pages/posts/জাভাস্ক্রিপ্টঃ-ভ্যারিয়েবল-এবং-ডাটা টাইপ.md
 - src/pages/posts/ডিবাগিং-এ-রাবার-ডাক-মেথড-খেলনা-দিয়ে-ডিবাগিং.md
 - src/pages/posts/নিত্যদিনের-জাভাস্ক্রিপ্টঃ-async-এবং-await.md
+- src/pages/posts/নিত্যদিনের-জাভাস্ক্রিপ্টঃ-অবজেক্ট-এ-লুপ-চালানো.md
 - src/pages/posts/নিত্যদিনের-জাভাস্ক্রিপ্টঃ-অ্যাসিনক্রোনাস-asynchronous.md
 - src/pages/posts/নিত্যদিনের-জাভাস্ক্রিপ্টঃ-এরর-হ্যান্ডলিং-error-handling.md
 - src/pages/posts/নিত্যদিনের-জাভাস্ক্রিপ্টঃ-কন্ডিশনাল-টার্নারি-ternary-অপারেটর.md
