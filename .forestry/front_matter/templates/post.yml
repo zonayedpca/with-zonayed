@@ -58,6 +58,7 @@ fields:
   config:
     required: true
 pages:
+- src/pages/posts/aaa.md
 - src/pages/posts/cmd-দিয়ে-জাভা-প্রোগ্রাম-কম্পাইল-ও-রান-করুন.md
 - src/pages/posts/অনলাইনে-ফ্রীতে-নিজের-ওয়ার্কশপ-তৈরী-করুন-আর-কাজ-করুন-যেকোনো-জায়গা-থেকে.md
 - src/pages/posts/ক্রস-প্ল্যাটফর্ম-ডেস্কটপ-অ্যাপ-বানিয়ে-ফেলুন-৫-মিনিটে - ফান-প্রোজেক্ট.md
