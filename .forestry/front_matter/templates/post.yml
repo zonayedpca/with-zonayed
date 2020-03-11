@@ -102,6 +102,8 @@ pages:
 - src/pages/posts/জাভাস্ক্রিপ্টঃ-কি-কেন- কখন.md
 - src/pages/posts/জাভাস্ক্রিপ্টঃ-কোথায়-এবং-কিভাবে-ইউজ-করা হয়.md
 - src/pages/posts/জাভাস্ক্রিপ্টঃ-ক্লোজারস-closures-নিয়ে-ধারণা.md
+- src/pages/posts/জাভাস্ক্রিপ্টঃ-ড্রাই-প্রিন্সিপ্যাল.md
+- src/pages/posts/জাভাস্ক্রিপ্টঃ-নাকি-ইকমাস্ক্রিপ্ট.md
 - src/pages/posts/জাভাস্ক্রিপ্টঃ-বিহ্যাইন্ড-দ্যা-সীন.md
 - src/pages/posts/জাভাস্ক্রিপ্টঃ-ব্যাসিক-ক্রোম-ডেভেলপার কন্সোল.md
 - src/pages/posts/জাভাস্ক্রিপ্টঃ-ভ্যারিয়েবল-এবং-ডাটা টাইপ.md
@@ -109,6 +111,7 @@ pages:
 - src/pages/posts/জাভাস্ক্রিপ্টঃ-হোইস্টিং-hoisting-নিয়ে-ধারণা.md
 - src/pages/posts/ডিবাগিং-এ-রাবার-ডাক-মেথড-খেলনা-দিয়ে-ডিবাগিং.md
 - src/pages/posts/নিত্যদিনের-জাভাস্ক্রিপ্টঃ-async-এবং-await.md
+- src/pages/posts/নিত্যদিনের-জাভাস্ক্রিপ্টঃ-map-filter-ও-reduce.md
 - src/pages/posts/নিত্যদিনের-জাভাস্ক্রিপ্টঃ-some-ও-every-মেথড.md
 - src/pages/posts/নিত্যদিনের-জাভাস্ক্রিপ্টঃ-অবজেক্ট-এ-লুপ-চালানো.md
 - src/pages/posts/নিত্যদিনের-জাভাস্ক্রিপ্টঃ-অ্যাসিনক্রোনাস-asynchronous.md
