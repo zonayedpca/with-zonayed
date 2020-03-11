@@ -99,6 +99,7 @@ pages:
 - src/pages/posts/জাভাস্ক্রিপ্ট-ডম-ম্যানিপুলেশনঃ-ইলিমেন্ট-নিয়ে-খেলা.md
 - src/pages/posts/জাভাস্ক্রিপ্ট-ডম-ম্যানিপুলেশনঃ-ইলিমেন্ট-সিলেক্ট-করা.md
 - src/pages/posts/জাভাস্ক্রিপ্ট-ডম-ম্যানিপুলেশনঃ-জাভাস্ক্রিপ্ট-আর-ডম.md
+- src/pages/posts/জাভাস্ক্রিপ্টঃ-অ্যারে-নিয়ে-সবকিছু.md
 - src/pages/posts/জাভাস্ক্রিপ্টঃ-ইফি-immediately-invoked-function-expressions-iife.md
 - src/pages/posts/জাভাস্ক্রিপ্টঃ-কি-কেন- কখন.md
 - src/pages/posts/জাভাস্ক্রিপ্টঃ-কোথায়-এবং-কিভাবে-ইউজ-করা হয়.md
@@ -106,9 +107,11 @@ pages:
 - src/pages/posts/জাভাস্ক্রিপ্টঃ-ড্রাই-প্রিন্সিপ্যাল.md
 - src/pages/posts/জাভাস্ক্রিপ্টঃ-নাকি-ইকমাস্ক্রিপ্ট.md
 - src/pages/posts/জাভাস্ক্রিপ্টঃ-বিহ্যাইন্ড-দ্যা-সীন.md
+- src/pages/posts/জাভাস্ক্রিপ্টঃ-ব্যাসিক-অবজেক্ট.md
 - src/pages/posts/জাভাস্ক্রিপ্টঃ-ব্যাসিক-ক্রোম-ডেভেলপার কন্সোল.md
 - src/pages/posts/জাভাস্ক্রিপ্টঃ-ব্যাসিক-ফাংশন.md
 - src/pages/posts/জাভাস্ক্রিপ্টঃ-ভ্যারিয়েবল-এবং-ডাটা টাইপ.md
+- src/pages/posts/জাভাস্ক্রিপ্টঃ-লুপ-নিয়ে-সবকিছু.md
 - src/pages/posts/জাভাস্ক্রিপ্টঃ-স্কোপ-scope-নিয়ে-ধারণা.md
 - src/pages/posts/জাভাস্ক্রিপ্টঃ-স্ট্যাটমেন্ট-আর-এক্সপ্রেশন.md
 - src/pages/posts/জাভাস্ক্রিপ্টঃ-হোইস্টিং-hoisting-নিয়ে-ধারণা.md
