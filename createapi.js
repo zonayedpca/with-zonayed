@@ -12,7 +12,9 @@ const postFiles = fs.readdirSync(postsDir);
 
 const postsByTag = {};
 
-fs.rmdirSync(apiDir, { recursive: true, force: true });
+if(fs.existsSync(apiDir)) {
+  fs.rmdirSync(apiDir, { recursive: true, force: true });
+}
 fs.mkdirSync(apiDir);
 
 postFiles.forEach(file => {
