@@ -31,5 +31,9 @@
     "react-script-tag": "^1.1.2",
     "rehype-react": "^3.0.2",
     "sprintf-js": "^1.1.2"
+  },
+  "devDependencies": {
+    "parser-front-matter": "^1.6.4",
+    "showdown": "^1.9.1"
   }
 }
