@@ -1,11 +1,14 @@
 ---
 language: বাংলা
-tags: []
-date: 2020-03-10T16:38:04Z
+tags:
+- react
+- reactjs
+- react-basics
+date: 2018-08-29T16:38:04Z
 series: ব্লগ
 template: post
 title: রিঅ্যাক্ট ব্যাসিকসঃ ইলিমেন্ট (Element) রেন্ডার
-thumb_img_path: ''
+thumb_img_path: "/images/1_9cMN41jixX5ALoFa1HVyHA.jpeg"
 
 ---
 গত পর্বে আমরা জেএসএক্স (JSX) এর সাথে পরিচিত হয়েছিলাম। তার আগের পর্বে আমরা রিঅ্যাক্ট এর একটা প্রোজেক্ট সেটাপ শুরু করেছিলাম। এখন আমরা আজকে [সেই প্রোজেক্ট](https://github.com/zonayedpca/learnReactWithZonayed/tree/01.ProjectSetup) থেকেই কাজ শুরু করবো।
@@ -72,7 +75,3 @@ thumb_img_path: ''
     npm install
 
 ব্যাস! এবার আপনি এটা নিয়ে নাড়াচাড়া করতে পারবেন, প্র্যাক্টিস করতে পারবেন যত ইচ্ছা।
-
-***
-
-\[wysija_form id=”6″\]
