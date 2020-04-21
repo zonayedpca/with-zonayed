@@ -1,11 +1,19 @@
 ---
 language: বাংলা
-tags: []
-date: 2020-03-10T16:41:36Z
+tags:
+- coding
+- JavaScript
+- JavaScript-Bangla
+- JavaScript-Basic
+- programming
+- জাভাস্ক্রিপ্ট
+- জাভাস্ক্রিপ্ট-বাংলা
+- জাভাস্ক্রিপ্ট-ব্যাসিক
+date: 2018-05-29T16:41:36Z
 series: ব্লগ
 template: post
 title: জাভাস্ক্রিপ্টঃ ইফি, Immediately Invoked Function Expressions (IIFE)
-thumb_img_path: ''
+thumb_img_path: "/images/1_L-UKP7ooUzP1U8796MxeTg.jpeg"
 
 ---
 আমাদের সাধারনত কোনো ফাংশন বানানোর পর পরে সেটাকে কল করে ইউজ করতে হয়। কিন্তু যদি আমরা ফাংশন বানানোর সাথে সাথেই সেটাকে কল করতে চাই সেক্ষেত্রে আমরা ইফি Immediately Invoked Function Expressions (IIFE) টেকনিক ইউজ করতে পারি। আজকে তাই ছোটো করে ইফি সম্পর্কেই আলোচনা করবো এবং এর কিছু রিয়েল লাইফ ইউসেজ দেখাবো।
