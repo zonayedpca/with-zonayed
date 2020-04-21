@@ -1,11 +1,19 @@
 ---
 language: বাংলা
-tags: []
-date: 2020-03-11T06:31:05.000+00:00
+tags:
+- coding
+- JavaScript
+- JavaScript-Bangla
+- JavaScript-Daily
+- programming
+- জাভাস্ক্রিপ্ট
+- জাভাস্ক্রিপ্ট-বাংলা
+- জাভাস্ক্রিপ্ট-ব্যাসিক
+date: 2018-04-02T06:31:05Z
 series: ব্লগ
 template: post
 title: নিত্যদিনের জাভাস্ক্রিপ্টঃ map(), filter() ও reduce()
-thumb_img_path: ''
+thumb_img_path: "/images/dailyjs.gif"
 
 ---
 আমি আজকে নিত্যদিনের জাভাস্ক্রিপ্ট হিসেবে তিনটা মেথডের কথা আলোচনা করবো। এখনকার সময়ে আমার মনে হয় এই তিনটা মেথড সবচেয়ে বেশী ব্যবহৃত হয়। তাই ভাবলাম আমি এই তিনটা নিয়ে আলোচনা করি সবার সাথে।
