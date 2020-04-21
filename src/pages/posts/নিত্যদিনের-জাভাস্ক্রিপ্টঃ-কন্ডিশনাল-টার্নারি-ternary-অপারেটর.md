@@ -1,11 +1,18 @@
 ---
 language: বাংলা
-tags: []
-date: 2020-03-10T16:37:49.000+00:00
+tags:
+- coding
+- JavaScript
+- JavaScript-Bangla
+- JavaScript-Daily
+- programming
+- জাভাস্ক্রিপ্ট
+- জাভাস্ক্রিপ্ট-বাংলা
+date: 2018-09-01T16:37:49Z
 series: ব্লগ
 template: post
 title: নিত্যদিনের জাভাস্ক্রিপ্টঃ কন্ডিশনাল/টার্নারি (Ternary) অপারেটর
-thumb_img_path: ''
+thumb_img_path: "/images/dailyjs.gif"
 
 ---
 কন্ডিশনাল বা টার্নারি অপারেটর প্রায় ক্ষেত্রে `if` `else` স্টেটমেন্ট এর পরবর্তিতে শর্টকাট হিসেবে ব্যবহার করা হয়। শর্টকাটে একলাইনে একটা সিদ্ধান্তের উপর ডিশিসন নিয়ে ফেলা যায়। এই অপারেটর অনেকটা এভাবে কাজ করেঃ
