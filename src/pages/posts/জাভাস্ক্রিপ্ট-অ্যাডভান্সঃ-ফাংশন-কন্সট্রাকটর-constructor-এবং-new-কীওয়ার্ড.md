@@ -1,11 +1,19 @@
 ---
 language: বাংলা
-tags: []
-date: 2020-03-10T16:39:18Z
+tags:
+- coding
+- JavaScript
+- javascript-advance
+- JavaScript-Bangla
+- programming
+- জাভাস্ক্রিপ্ট
+- জাভাস্ক্রিপ্ট-অ্যাডভান্স
+- জাভাস্ক্রিপ্ট-বাংলা
+date: 2018-08-07T16:39:18Z
 series: ব্লগ
 template: post
 title: জাভাস্ক্রিপ্ট অ্যাডভান্সঃ ফাংশন কন্সট্রাকটর(Constructor) এবং ‘new’ কীওয়ার্ড
-thumb_img_path: ''
+thumb_img_path: "/images/jsadvanced.jpeg"
 
 ---
 জাভাস্ক্রিপ্ট যদিও অবজেক্ট ওরিয়েন্টেড প্রোগ্রামিং ল্যাঙ্গুয়েজ, কিন্তু যারা অন্য কোনো ল্যাঙ্গুয়েজ থেকে জাভাস্ক্রিপ্ট এ এসেছেন তারা হয়তো একটা জিনিস এখানে মিসিং দেখবেন। সেটা হচ্ছে ক্লাস (`Class`)। অবজেক্ট ওরিয়েন্টেড ল্যাঙ্গুয়েজ কিন্তু ক্লাস নাই এটা কেমন কথা! হ্যাঁ, এজন্যেই জাভাস্ক্রিপ্ট একটু অন্যরকম। জাভাস্ক্রিপ্ট এ ক্লাস কনসেপ্ট এর পরিচয় করানো হয় নাই ডেভেলপারদের সাথে।
@@ -19,25 +27,25 @@ thumb_img_path: ''
        age: 22,
        job: 'Student'
     }
-
+    
     var kinan = { 
        name: 'Kinan Hossain',
        age: 29,
        job: 'Businessman'
     }
-
+    
     var jamil = { 
        name: 'Jemil Hossain',
        age: 18,
        job: 'Driver'
     }
-
+    
     var zawad = { 
        name: 'Zawad Ahmed',
        age: 1,
        job: 'Child'
     }
-
+    
     var zonayed = { 
        name: 'Zonayed Ahmed',
        age: 21,
@@ -103,7 +111,3 @@ thumb_img_path: ''
 ![](https://cdn-images-1.medium.com/max/800/1*0oyV9aFTBrkllnPJ6nvPHA.png)
 
 এভাবে একটা ফাংশন কন্সট্রাকটর ইউজ করে যতো ইচ্ছা অবজেক্ট তৈরী করতে পারবেন সহজেই। আশা করি এটা নিয়ে আর সমস্যা হবে না।
-
-***
-
-\[wysija_form id=”6″\]
