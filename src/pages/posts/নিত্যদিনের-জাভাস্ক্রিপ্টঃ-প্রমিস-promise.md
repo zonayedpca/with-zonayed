@@ -199,7 +199,3 @@ thumb_img_path: "/images/dailyjs.gif"
 এখানে আমাদের [এই লিঙ্কে](https://jsonplaceholder.typicode.com/posts) থাকা ১০০ টা অ্যারেসহ সব ডাটা চলে আসবেঃ
 
 ![](https://cdn-images-1.medium.com/max/880/1*tQ9UXomOV1d8NQJ6QZ5zOA.png)
-
-***
-
-\[wysija_form id=”6″\]
