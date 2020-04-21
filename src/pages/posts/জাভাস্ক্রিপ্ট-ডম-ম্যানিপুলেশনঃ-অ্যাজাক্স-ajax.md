@@ -1,11 +1,18 @@
 ---
 language: বাংলা
-tags: []
-date: 2020-03-10T16:36:26Z
+tags:
+- coding
+- JavaScript
+- JavaScript-Bangla
+- javascript-dom
+- জাভাস্ক্রিপ্ট
+- জাভাস্ক্রিপ্ট-ডম
+- জাভাস্ক্রিপ্ট-বাংলা
+date: 2018-10-08T16:36:26Z
 series: ব্লগ
 template: post
 title: জাভাস্ক্রিপ্ট ডম ম্যানিপুলেশনঃ অ্যাজাক্স(AJAX)
-thumb_img_path: ''
+thumb_img_path: "/images/1_eZLEkd3SlKGcIQu3jWcLkQ.jpeg"
 
 ---
 ধরুন আমি ফেসবুক চালাচ্ছি, এখন একটা পোস্ট দেখে আমার ভালো লাগলো। এখন আমি এটাতে রিঅ্যাকশন দিতে চাচ্ছি। রিঅ্যাকশন বাটনে ক্লিক করার পর পুরো ফেসবুক আবার রিলোড হলো। কারণ আমি যে পোস্টে রিঅ্যাকশন দিয়েছি সে ডাটাকে ফেসবুকের সার্ভারে পাঠাতে হবে, আর তাই ব্রাউজার সে কাজ করতে গিয়ে পুরোপুরি রিলোড হলো। এখন প্রত্যেকবার যদি এমন রিঅ্যাকশন দিতে গিয়ে বারবার ফেসবুক পুরোপুরি রিলোড হয়, তাহলে ব্যাপারটা কেমন হলো? একে তো বারবার রিলোড হওয়ার কারণে ডাটাও বেশী খরচ হবে। একই সাথে ব্যাপারটা বিরক্তিকরও। আর এই সমস্যা সমাধানের জন্যেই এই অ্যাজাক্স টেকনিক এসেছে।
@@ -120,7 +127,7 @@ AJAX মানে হচ্ছে **A**synchronous **J**avaScript **A**nd **X**M
     request.open('GET', 'https://jsonplaceholder.typicode.com/posts', true);
     console.log(request.readyState);
     request.send();
-
+    
     request.onreadystatechange = function handleRequest(){
        console.log(request.readyState);
     }
@@ -233,7 +240,7 @@ AJAX মানে হচ্ছে **A**synchronous **J**avaScript **A**nd **X**M
        var request = new XMLHttpRequest();
        request.open('GET', 'https://jsonplaceholder.typicode.com/posts', true);
        request.send();
-
+    
        request.onreadystatechange = function handleRequest(){
           if(request.readyState === 4 && request.status === 200) {
              console.log(JSON.parse(request.responseText));
@@ -271,7 +278,3 @@ AJAX মানে হচ্ছে **A**synchronous **J**avaScript **A**nd **X**M
 ![](https://cdn-images-1.medium.com/max/1000/1*x4bLM18hJl8qsog5DhhhlA.png)
 
 ব্যাস, হয়ে গেলো আমাদের অ্যাজাক্স রিকোয়েস্টের সাহায্যে পেজ রিলোড না করেই অন্য কোনো সার্ভার থেকে ডাটা নিয়ে আসার কাজ।
-
-***
-
-\[wysija_form id=”6″\]
