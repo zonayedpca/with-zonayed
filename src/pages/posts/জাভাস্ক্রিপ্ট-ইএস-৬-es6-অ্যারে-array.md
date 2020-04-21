@@ -1,11 +1,26 @@
 ---
 language: বাংলা
-tags: []
-date: 2020-03-10T16:40:06Z
+tags:
+- coding
+- ECMAScript6
+- ES6
+- JavaScript
+- JavaScript-Bangla
+- programming
+- ইএস৬
+- ইকমাস্ক্রিপ্ট৬
+- জাভাস্ক্রিপ্ট
+- জাভাস্ক্রিপ্ট-বাংলা
+- programming
+- ইএস৬
+- ইকমাস্ক্রিপ্ট৬
+- জাভাস্ক্রিপ্ট
+- জাভাস্ক্রিপ্ট-বাংলা
+date: 2018-07-20T16:40:06Z
 series: ব্লগ
 template: post
 title: 'জাভাস্ক্রিপ্ট ইএস ৬(ES6): অ্যারে (Array)'
-thumb_img_path: ''
+thumb_img_path: "/images/es6.jpeg"
 
 ---
 অ্যারে জাভাস্ক্রিপ্ট এ নতুন কিছু নয়। কিন্তু ইএস৬ এ নতুন অ্যারের কিছু মেথড এসেছে। আগেই বলেছিলাম ইএস৬ এর কাজ হচ্ছে ডেভেলপারের লাইফ ইজি করে দেওয়া। আর তাই লাইফ ইজি করতেই নতুন কিছু পাওয়ারফুল মেথড এবং সেই সাথে টেকনিক এসেছে। আজকের পর্বে আমি সেগুলো নিয়েই আলোচনা করবো।
@@ -115,7 +130,3 @@ See the Pen [Array in ES6 with.zonayed.me](https://codepen.io/zonayedpca/pen/zLK
 ![](https://cdn-images-1.medium.com/max/800/1*legRjb_mj4Y0wuwRCIkZWA.png)
 
 তো আজকে এই পর্যন্তই, আশা করি অ্যারে নিয়ে কাজ করতে আর বেশী লাইনের কোড লিখতে হবে না। একলাইনেই সব কাজ সেরে ফেলা যাবে এখন থেকে।
-
-***
-
-\[wysija_form id=”6″\]
