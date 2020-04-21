@@ -1,11 +1,18 @@
 ---
 language: বাংলা
-tags: []
-date: 2020-03-10T16:38:09Z
+tags:
+- coding
+- JavaScript
+- JavaScript-Bangla
+- JavaScript-Daily
+- programming
+- জাভাস্ক্রিপ্ট
+- জাভাস্ক্রিপ্ট-বাংলা
+date: 2018-08-28T16:38:09Z
 series: ব্লগ
 template: post
 title: নিত্যদিনের জাভাস্ক্রিপ্টঃ ডেট (Date) অবজেক্ট
-thumb_img_path: ''
+thumb_img_path: "/images/dailyjs.gif"
 
 ---
 আমাদের ওয়েব অ্যাপ্লিকেশনে, ওয়েবসাইটে বা ওয়েব সার্ভারে সময় নিয়ে অনেক কাজ করতে হতে পারে। আর তাই জাভাস্ক্রিপ্ট এ বিল্ট-ইনভাবেই এর জন্যে একটা অবজেক্ট আছে। সেটা হচ্ছে `Date` অবজেক্ট। সময় নিয়ে বিভিন্নভাবে কাজ করার জন্যে এই অবজেক্ট এর বেশকিছু মেথডও আছে। আর এগুলো খুবই কাজের, কারণ আমাদের আলাদা করে সময় নিয়ে খুব বেশী ভাবতে হয় না যেহেতু জাভাস্ক্রিপ্ট এ বিল্ট-ইনভাবেই এরা আছে।
@@ -26,7 +33,7 @@ thumb_img_path: ''
 
 * `Date.now()`: বর্তমান সময় মিলিসেকেন্ডে রিটার্ণ করবেঃ
 
-    console.log(Date.now());
+  console.log(Date.now());
 
 ![](https://cdn-images-1.medium.com/max/1000/1*G01QDKtZ8mnTz0OIrjMWww.png)
 
@@ -34,7 +41,7 @@ thumb_img_path: ''
 
 * `Date.parse()`: এটার সাহায্যে একটা ডেটের স্ট্রিং কে নরমাল ডেট অবজেক্ট এ নিয়ে যেতে পারবেন। এটাও মিলিসেকেন্ড আকারেই দেখাবে। আগের মতোই ১৯৭০ সালের পহেলা জানুয়ারী থেকে আপনার দেওয়া ডেট পর্যন্ত কত মিলিসেকেন্ড হয়েছে সেটাই রিটার্ণ করবে। এখন এই ডেটের স্ট্রিং এরও ফরম্যাট আছে। ফরম্যাট ঠিক না হলে `NaN`(**N**ot **a** **N**umber) রিটার্ণ পাবেন। তবে আপনাকে এটা লিখতে হবে না, আপনি এই স্ট্রিংও বের করতে পারবেন। এটা নিয়ে পরে বিস্তারিত লেখা হয়েছে। যেমন আমরা যদি ১৯৭০ সালের পহেলা জানুয়ারীর ডেট স্ট্রিং টাই পাস করি এই মেথডেঃ
 
-    console.log(Date.parse('01 Jan 1970 00:00:00 GMT'));
+  console.log(Date.parse('01 Jan 1970 00:00:00 GMT'));
 
 ![](https://cdn-images-1.medium.com/max/1000/1*eIjPQCqtq2RElUaFU2LUiQ.png)
 
@@ -70,13 +77,13 @@ thumb_img_path: ''
 
 * কোনো আর্গুমেন্ট ছাড়া, যেমনঃ`new Date()` । এটা ঠিক বর্তমান সময়টাই দেখাবেঃ
 
-    console.log(new Date());
+  console.log(new Date());
 
 ![](https://cdn-images-1.medium.com/max/1000/1*hWuEh-6gZNQmd1qs6WYnGA.png)
 
 * অন্য কোনো সময়ের বছর, মাস, দিন, ঘন্টা, মিনিট, সেকেন্ড, মিলিসেকেন্ড আর্গুমেন্ট হিসেবে দিয়ে, যেমনঃ `new Date(year, month, day, hours, minutes, seconds, milliseconds)` । তবে এখানে `year` আর `month` ছাড়া বাকী সবগুলো অপশনাল। `year` সরাসরি বসরের নাম্বারটা নিবে, যেমন `2018` । মাস ইন্ডেক্স নাম্বার নিবে `0` থেকে `11` এর মধ্যে, এখানে (`0`-জানুয়ারী থেকে শুরু করে `11`-ডিসেম্বর পর্যন্ত)। এটা যদি আগের বা ভবিষ্যৎ এর কোনো সময়ের ডেট অবজেক্ট তৈরী করতে চান তাহলে এভাবে সবকিছু বলে দিতে হবে। যেমন ধরেন আমরা `1996` সালের অক্টোবর(ইন্ডেক্স নাম্বার`9`) মাসের `19` তারিখ দিয়ে একটা ডেট অবজেক্ট বানাতে চাচ্ছিঃ
 
-    console.log(new Date(1996, 9, 19));
+  console.log(new Date(1996, 9, 19));
 
 ![](https://cdn-images-1.medium.com/max/1000/1*GoNiQZiCCXVbskAqGPtHBg.png)
 
@@ -88,7 +95,7 @@ thumb_img_path: ''
 
 * শুধুমাত্র মিলিসেকেন্ড আর্গুমেন্ট হিসেবে পাস করে। এই ব্যাপারটা একটু অন্যরকম। এটার সিস্টেম হচ্ছে আপনি মিলিসেকেন্ড দিবেন, জাভাস্ক্রিপ্ট একটা নির্দিষ্ট সময় এর সাথে সেই মিলিসেকেন্ড যোগ করে যে সময় হবে সেটার অবজেক্ট তৈরী করবে। তবে কোন সময়ের সাথে যোগ করে জাভাস্ক্রিপ্ট এই হিসাব করবে সেটাও আগে থেকেই ডিফাইন করা জাভাস্ক্রিপ্ট এর ভিতরে। জাভাস্ক্রিপ্ট ১৯৭০ সালের পহেলা জানুয়ারী থেকে সময় গণনা শুরু করবে। তার মানে আপনি `o` মিলিসেকেন্ড দিলে ঠিক ঐদিনটাই রিটার্ণ করবেঃ
 
-    console.log(new Date(0));
+  console.log(new Date(0));
 
 ![](https://cdn-images-1.medium.com/max/1000/1*ePGrphDj55PoF-nc3g79-A.png)**এটা আসলে GMT টাইম ধরে হিসাব করে, আর আমি ইন্ডিয়াতে থাকার কারণে +05ঃ30 যোগ হয়েছে।**
 
@@ -100,7 +107,7 @@ thumb_img_path: ''
 
 * ডেট স্ট্রিং আর্গুমেন্ট হিসেবে পাস করে, যেমন `new Date(‘Tue Aug 28 2018 13:13:20 GMT+0530 (India Standard Time)')`। আপনি একটা ডেট স্ট্রিং থেকেও ডেট অবজেক্ট তৈরী করতে পারবেন। যেমন আমরা শুরুর দিকেই একটা ডেট স্ট্রিং তৈরী করেছিলাম। সেটাকে ডেট অবজেক্ট এ নিতে চাইলে জাস্ট এভাবে পাস করে দিলেই হবেঃ
 
-    new Date(date)
+  new Date(date)
 
 এখন এটার টাইপ দেখলে দেখবেন এটাও এখন ডেট অবজেক্ট হয়ে গেছেঃ
 
@@ -143,14 +150,14 @@ thumb_img_path: ''
 * `getMonth()`: কোন মাসে আছে আপনার অবজেক্ট
 * `getSeconds()`: সেকেন্ডটা রিটার্ণ করবে
 
-    console.log(`getDate: ${dateObj.getDate()}`);
-    console.log(`getDay: ${dateObj.getDay()}`);
-    console.log(`getFullYear: ${dateObj.getFullYear()}`);
-    console.log(`getHours: ${dateObj.getHours()}`);
-    console.log(`getMilliseconds: ${dateObj.getMilliseconds()}`);
-    console.log(`getMinutes: ${dateObj.getMinutes()}`);
-    console.log(`getMonth: ${dateObj.getMonth()}`);
-    console.log(`getSeconds: ${dateObj.getSeconds()}`);
+  console.log(`getDate: ${dateObj.getDate()}`);
+  console.log(`getDay: ${dateObj.getDay()}`);
+  console.log(`getFullYear: ${dateObj.getFullYear()}`);
+  console.log(`getHours: ${dateObj.getHours()}`);
+  console.log(`getMilliseconds: ${dateObj.getMilliseconds()}`);
+  console.log(`getMinutes: ${dateObj.getMinutes()}`);
+  console.log(`getMonth: ${dateObj.getMonth()}`);
+  console.log(`getSeconds: ${dateObj.getSeconds()}`);
 
 ![](https://cdn-images-1.medium.com/max/1000/1*EQ6vyQFyfiI1TVeF2Iqs-A.png)
 
@@ -159,8 +166,8 @@ thumb_img_path: ''
 * `getTime()`: পুরোটা সময় ১৯৭০ সাল থেকে আপনার ডেট অবজেক্ট পর্যন্ত কতো মিলিসেকেন্ড হয়েছে সেটা রিটার্ণ করবে।
 * `getYear()`: কোনো কারণে এটা ১৯০০ সাল(**১৯০০সাল থেকে কিন্তু**) থেকে এখন পর্যন কয় বছর হয়েছে সেটা রিটার্ণ করবে।
 
-    console.log(`getTime: ${dateObj.getTime()}`);
-    console.log(`getYear: ${dateObj.getYear()}`);
+  console.log(`getTime: ${dateObj.getTime()}`);
+  console.log(`getYear: ${dateObj.getYear()}`);
 
 ![](https://cdn-images-1.medium.com/max/1000/1*QrvcRZ1v3aMwHHtaCR0YUw.png)
 
@@ -176,14 +183,14 @@ thumb_img_path: ''
 * `getUTCMonth()`: আপনার ডেট অবজেক্ট UTC টাইম অনুযায়ী কোন মাসে আছে সেই মাসটা `0` থেকে `11` নাম্বারে ইন্ডেক্স আকারে দেখাবে। এখানে `0` মানে জানুয়ারী আর `11` মানে ডিসেম্বর।
 * `getUTCSeconds()`: আপনার ডেট অবজেক্ট UTC টাইম অনুযায়ী কোত সেকেন্ডে আছে সেটা দেখাবে।
 
-    console.log(`getUTCDate: ${dateObj.getUTCDate()}`);
-    console.log(`getUTCDay: ${dateObj.getUTCDay()}`);
-    console.log(`getUTCFullYear: ${dateObj.getUTCFullYear()}`);
-    console.log(`getUTCHours: ${dateObj.getUTCHours()}`);
-    console.log(`getUTCMilliseconds: ${dateObj.getUTCMilliseconds()}`);
-    console.log(`getUTCMinutes: ${dateObj.getUTCMinutes()}`);
-    console.log(`getUTCMonth: ${dateObj.getUTCMonth()}`);
-    console.log(`getUTCSeconds: ${dateObj.getUTCSeconds()}`);
+  console.log(`getUTCDate: ${dateObj.getUTCDate()}`);
+  console.log(`getUTCDay: ${dateObj.getUTCDay()}`);
+  console.log(`getUTCFullYear: ${dateObj.getUTCFullYear()}`);
+  console.log(`getUTCHours: ${dateObj.getUTCHours()}`);
+  console.log(`getUTCMilliseconds: ${dateObj.getUTCMilliseconds()}`);
+  console.log(`getUTCMinutes: ${dateObj.getUTCMinutes()}`);
+  console.log(`getUTCMonth: ${dateObj.getUTCMonth()}`);
+  console.log(`getUTCSeconds: ${dateObj.getUTCSeconds()}`);
 
 ![](https://cdn-images-1.medium.com/max/1000/1*BF36Jr3XjqcL_BAmmF6hMQ.png)
 
@@ -232,7 +239,7 @@ thumb_img_path: ''
 
 * `toDateString()`: সুন্দর করে আপনার ডেট অবজেক্ট টাকে স্ট্রিং এ নিয়ে যাবে। এটা আসলে অনেক কাজের। যেমন আমরা আমাদের ডেট অবজেক্ট এ এটা অ্যাপ্লাই করলেঃ
 
-    console.log(dateObj.toDateString());
+  console.log(dateObj.toDateString());
 
 এরকম সুন্দর ফরম্যাট এ ডেট দেখাবেঃ
 
@@ -243,7 +250,7 @@ thumb_img_path: ''
 * `toJSON()`: স্ট্রিং আকারে দেখাবে আগের মতোই, তবে যাতে জেসন এর সাথে ইউজ করা যায় ঐরকম ফরম্যাটে দেখাবে। জেসন কি যদি জানা না থাকে তাহলে আপাতত এটুকু মনে রাখুন এটা জেসন ফরম্যাটে সময়টা দেখাবে।
 * `toLocaleDateString()`: এই মেথডটা বেশ কাজের। এবং কাজের মানে এটা বেশ কিছু আর্গুমেন্টও নেয়। এটা আপনার ডেট অবজেক্টটাকে বিভিন্ন ভাষায় ফরম্যাট করে ডেট রিটার্ণ করবে। এই মেথড প্রথম আর্গুমেন্ট হিসেবে কোন ভাষায় চান, আর দ্বিতীয় আর্গুমেন্ট এ কিছু অপশন নেয়। অপশন মানে হচ্ছে ঠিক কিভাবে আপনি আপনার ডেটটাকে ফরম্যাট করতে চাচ্ছেন। এখন এই দুইটা আর্গুমেন্টই অপশনাল। আপনি যদি খালি রাখেন তাইলে বাই ডিফল্ট ইংলিশে একটা ফরম্যাট এ আপনার ডেট রিটার্ণ করবেঃ
 
-    console.log(dateObj.toLocaleDateString());
+  console.log(dateObj.toLocaleDateString());
 
 ![](https://cdn-images-1.medium.com/max/1000/1*4A_oGlJ0KGOpSWvJfVtGNw.png)
 
@@ -279,7 +286,3 @@ thumb_img_path: ''
 * `valueOf()`: আপনার ডেট অবজেক্টটা প্রিমিটিভ আকারে রিটার্ণ করবে। প্রিমিটিভ মানে মিলিসেকেন্ড আকারে রিটার্ণ করবে।
 
 এখানে কিছু কিছু মেথড একইরকম জিনিস রিটার্ণ করে বলে মনে হলেও কিছু কিছু তফাৎ আছে যেটা আপনি আপনার কাজের সুবিধা হয় এমন দেখে মেথড ইউজ করবেন।
-
-***
-
-\[wysija_form id=”6″\]
