@@ -1,11 +1,19 @@
 ---
 language: বাংলা
-tags: []
-date: 2020-03-10T16:40:29Z
+tags:
+- coding
+- JavaScript
+- javascript-advance
+- JavaScript-Bangla
+- programming
+- জাভাস্ক্রিপ্ট
+- জাভাস্ক্রিপ্ট-অ্যাডভান্স
+- জাভাস্ক্রিপ্ট-বাংলা
+date: 2018-07-07T16:40:29Z
 series: ব্লগ
 template: post
 title: জাভাস্ক্রিপ্ট অ্যাডভান্সঃ call(), bind() এবং apply() মেথড
-thumb_img_path: ''
+thumb_img_path: "/images/jsadvanced.jpeg"
 
 ---
 [গত পর্বে](https://with.zonayed.me/bn/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%82/%E0%A6%9C%E0%A7%87%E0%A6%8F%E0%A6%B8-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%82/%E0%A6%9C%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A7%8D%E0%A6%9F-%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A1%E0%A6%AD%E0%A6%BE%E0%A6%A8%E0%A7%8D/) আমি `this` কীওয়ার্ড নিয়ে আলোচনা করেছি। সেখানে `this` কীওয়ার্ডের ভ্যালু বা অন্য কথায় `this` এর কন্টেক্সট(Context) ডিটারমাইন করার জন্যে চারটা রুলস এর কথা বলেছিলামঃ
