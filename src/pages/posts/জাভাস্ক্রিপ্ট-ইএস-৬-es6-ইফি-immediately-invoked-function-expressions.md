@@ -1,11 +1,19 @@
 ---
 language: বাংলা
-tags: []
-date: 2020-03-10T16:40:48Z
+tags:
+- coding
+- ECMAScript6
+- ES6
+- JavaScript
+- JavaScript-Bangla
+- programming
+- জাভাস্ক্রিপ্ট
+- জাভাস্ক্রিপ্ট-বাংলা
+date: 2018-06-28T16:40:48Z
 series: ব্লগ
 template: post
 title: জাভাস্ক্রিপ্ট ইএস ৬(ES6):ইফি (Immediately Invoked Function Expressions)
-thumb_img_path: ''
+thumb_img_path: "/images/es6.jpeg"
 
 ---
 আমরা ইএস ৫ এ জেনেছি ইফির কথা, ইফি কিভাবে এবং কেনো ইউজ করা হয় সেটা নিয়েও [সেখানে](https://with.zonayed.me/bn/%e0%a6%95%e0%a6%ae%e0%a7%8d%e0%a6%aa%e0%a6%bf%e0%a6%89%e0%a6%9f%e0%a6%be%e0%a6%b0-%e0%a6%b8%e0%a6%be%e0%a6%87%e0%a6%a8%e0%a7%8d%e0%a6%b8/%e0%a6%9c%e0%a6%be%e0%a6%ad%e0%a6%be%e0%a6%b8%e0%a7%8d%e0%a6%95%e0%a7%8d%e0%a6%b0%e0%a6%bf%e0%a6%aa%e0%a7%8d%e0%a6%9f%e0%a6%83-%e0%a6%87%e0%a6%ab%e0%a6%bf-immediately-invoked-function-expressions-ii/) বিস্তারিত আলোচনা করা হয়েছে। চাইলে আগের [আর্টিকেলটা](https://with.zonayed.me/bn/%e0%a6%95%e0%a6%ae%e0%a7%8d%e0%a6%aa%e0%a6%bf%e0%a6%89%e0%a6%9f%e0%a6%be%e0%a6%b0-%e0%a6%b8%e0%a6%be%e0%a6%87%e0%a6%a8%e0%a7%8d%e0%a6%b8/%e0%a6%9c%e0%a6%be%e0%a6%ad%e0%a6%be%e0%a6%b8%e0%a7%8d%e0%a6%95%e0%a7%8d%e0%a6%b0%e0%a6%bf%e0%a6%aa%e0%a7%8d%e0%a6%9f%e0%a6%83-%e0%a6%87%e0%a6%ab%e0%a6%bf-immediately-invoked-function-expressions-ii/) পড়ে আসতে পারবেন।
@@ -65,7 +73,7 @@ thumb_img_path: ''
      var a = 'Zonayed Ahmed';
      console.log(a);
     }}
-
+    
     myName();
 
 এটা ঠিকঠাক আউটপুট দেখাবেঃ
@@ -78,7 +86,7 @@ thumb_img_path: ''
      const a = 'Zonayed Ahmed';
      console.log(a);
     }}
-
+    
     myName6();
 
 এটা এরর আসবেঃ
@@ -86,7 +94,3 @@ thumb_img_path: ''
 ![](https://cdn-images-1.medium.com/max/800/1*Lngw-gCuuL1j4gstNzXWxQ.png)
 
 এভাবেই আপনি ইএস ৬ এ খুব সহজেই ইফির ফাংশানালিটি পেয়ে যাবেন।
-
-***
-
-\[wysija_form id=”6″\]
