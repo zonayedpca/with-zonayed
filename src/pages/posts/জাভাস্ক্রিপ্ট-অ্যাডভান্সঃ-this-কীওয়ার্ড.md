@@ -59,7 +59,7 @@ thumb_img_path: "/images/jsadvanced.jpeg"
     function helloThis(){
        console.log(this);
     }
-
+    
     helloThis();
 
 ![](https://cdn-images-1.medium.com/max/800/1*GNAiXbWB2erZGU1v6PG2DQ.png)
@@ -72,7 +72,7 @@ thumb_img_path: "/images/jsadvanced.jpeg"
        'use strict';
         console.log(this);
     }
-
+    
     helloThis();
 
 এখানে দেখবেন আপনার রেজাল্ট `undefined` আসবেঃ
@@ -86,7 +86,7 @@ thumb_img_path: "/images/jsadvanced.jpeg"
     function unNamed() {
        this.name = 'Zonayed Ahmed';
     }
-
+    
     unNamed();
 
 এখন এই ফাংশনের বাইরে `name` নামে কোনো ভ্যারিয়েবল কল করলে দেখবেন সেটা কাজ করছে!
@@ -95,7 +95,7 @@ thumb_img_path: "/images/jsadvanced.jpeg"
 
 ![](https://cdn-images-1.medium.com/max/800/1*662cSLOxDF6dezVcI48oUg.png)
 
-কারণটা কি? হ্যাঁ কারণ হচ্ছে আপনি যখন ফাংশন এর ভিতরে `this.name` লিখলেন এবং সেই ফাংশনটা গ্লোবাল কন্টেক্সট এ কল করলেন তখন এই `this.name `আসলে গ্লোবাল অবজেক্ট এর আন্ডারে `name` এ অ্যাসাইন(`window.name`) হয়ে যাচ্ছে। তাই সিম্পলি আপনি এটা বাইরে যেকোনো জায়গায় অ্যাক্সেস পাচ্ছেন। **_‘strict mode’ এ এটা কাজ করবে না।_**
+কারণটা কি? হ্যাঁ কারণ হচ্ছে আপনি যখন ফাংশন এর ভিতরে `this.name` লিখলেন এবং সেই ফাংশনটা গ্লোবাল কন্টেক্সট এ কল করলেন তখন এই `this.name`আসলে গ্লোবাল অবজেক্ট এর আন্ডারে `name` এ অ্যাসাইন(`window.name`) হয়ে যাচ্ছে। তাই সিম্পলি আপনি এটা বাইরে যেকোনো জায়গায় অ্যাক্সেস পাচ্ছেন। **_‘strict mode’ এ এটা কাজ করবে না।_**
 
 এবার কাস্টমভাবে ডিফাইন করা অবজেক্ট এর ভিতরে যদি `this` ইউজ করি তাহলে কি হবে? হ্যাঁ তাহলে আমাদের দ্বিতীয় রুলস চলে আসবে।
 
@@ -244,7 +244,3 @@ thumb_img_path: "/images/jsadvanced.jpeg"
 * এটার ভ্যালু অ্যাসাইন হয় না যতক্ষন না পর্যন্ত আপনি ডিক্ল্যেয়ারকৃত ফাংশনটাকে কল না করছেন বা এটা যেখানে ইউজ করা হয়েছে সেটাকে কল না করছেন।
 
 তো আজকে এই পর্যন্তই, ভালো থাকবেন আর পাশের মানুষটিকে ভালো রাখবেন।
-
-***
-
-\[wysija_form id=”6″\]
