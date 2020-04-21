@@ -8,7 +8,7 @@ tags:
 - programming
 - জাভাস্ক্রিপ্ট
 - জাভাস্ক্রিপ্ট-বাংলা
-date: 2020-03-10T16:37:05.000+00:00
+date: 2018-09-17T16:37:05Z
 series: ব্লগ
 template: post
 title: নিত্যদিনের জাভাস্ক্রিপ্টঃ async এবং await
