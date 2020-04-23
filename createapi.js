@@ -64,52 +64,56 @@ tagKeys.map((tag) => {
   fs.mkdirSync(tagDir);
   const singleTagPosts = postsByTag[tag];
   const tagPosts = [];
-  singleTagPosts.map(
-    (
-      {
-        language,
-        tags,
-        date,
-        series,
-        template,
-        title,
-        thumb_img_path,
-        content,
-      },
-      index
-    ) => {
-      const data = {
-        language,
-        tags,
-        date,
-        series,
-        template,
-        title,
-        thumb_img_path,
-        contentDir: `${index}`,
-      };
-      if (mainIndexJson[tag]) {
-        mainIndexJson[tag].push(data);
-      } else {
-        mainIndexJson[tag] = [data];
+  singleTagPosts
+    .sort((a, b) => {
+      return new Date(a.date).getTime() - new Date(b.date).getTime();
+    })
+    .map(
+      (
+        {
+          language,
+          tags,
+          date,
+          series,
+          template,
+          title,
+          thumb_img_path,
+          content,
+        },
+        index
+      ) => {
+        const data = {
+          language,
+          tags,
+          date,
+          series,
+          template,
+          title,
+          thumb_img_path,
+          contentDir: `${index}`,
+        };
+        if (mainIndexJson[tag]) {
+          mainIndexJson[tag].push(data);
+        } else {
+          mainIndexJson[tag] = [data];
+        }
+        tagPosts.push({
+          language,
+          tags,
+          date,
+          series,
+          template,
+          title,
+          thumb_img_path,
+          content,
+        });
+        const dataWithContent = { ...data, content };
+        fs.writeFileSync(
+          `${apiDir}/${tag}/${index}.json`,
+          JSON.stringify(dataWithContent)
+        );
       }
-      tagPosts.push({
-        language,
-        tags,
-        date,
-        series,
-        template,
-        title,
-        thumb_img_path,
-        content,
-      });
-      const dataWithContent = { ...data, content };
-      fs.writeFileSync(
-        `${apiDir}/${tag}/${index}.json`,
-        JSON.stringify(dataWithContent)
-      );
-    }
-  );
+    );
   fs.writeFileSync(`${apiDir}/${tag}/index.json`, JSON.stringify(tagPosts));
 });
 
