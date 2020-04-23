@@ -105,15 +105,12 @@ tagKeys.map((tag) => {
       });
       const dataWithContent = { ...data, content };
       fs.writeFileSync(
-        `${apiDir}/${tag}/index.json`,
-        JSON.stringify(dataWithContent)
-      );
-      fs.writeFileSync(
         `${apiDir}/${tag}/${index}.json`,
         JSON.stringify(dataWithContent)
       );
     }
   );
+  fs.writeFileSync(`${apiDir}/${tag}/index.json`, JSON.stringify(tagPosts));
 });
 
 fs.writeFileSync(`${apiDir}/tags.json`, JSON.stringify(mainIndexJson));
