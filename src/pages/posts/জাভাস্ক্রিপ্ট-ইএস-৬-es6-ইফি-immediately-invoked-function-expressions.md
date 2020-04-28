@@ -9,7 +9,7 @@ tags:
 - programming
 - জাভাস্ক্রিপ্ট
 - জাভাস্ক্রিপ্ট-বাংলা
-date: 2018-06-28T12:40:48Z
+date: 2018-07-03T12:40:48Z
 series: ব্লগ
 template: post
 title: জাভাস্ক্রিপ্ট ইএস ৬(ES6):ইফি (Immediately Invoked Function Expressions)
