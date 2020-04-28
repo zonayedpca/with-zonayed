@@ -7,7 +7,7 @@ tags:
 - JavaScript
 - JavaScript-Bangla
 - programming
-date: 2018-06-28T16:40:53Z
+date: 2018-06-28T05:37:53Z
 series: ব্লগ
 template: post
 title: 'জাভাস্ক্রিপ্ট ইএস ৬(ES6): let এবং const দিয়ে ভ্যারিয়েবল ডিক্লেয়ার করা'
